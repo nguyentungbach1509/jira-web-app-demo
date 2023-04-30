@@ -10,10 +10,10 @@ module.exports = {
     try {
         await Issue.create({...req.body.issue});
     
-        return res.json({mess: "Issue was created successfully!", type: 0});
+        return res.json({mess: "Issue was created successfully!!", type: 0});
     }
     catch(err) {
-        return res.json({mess: "Failed to create issues!", type: 1});
+        return res.json({mess: "Failed to create issues!!", type: 1});
     }
   },
 
