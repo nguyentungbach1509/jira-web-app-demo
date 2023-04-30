@@ -1,0 +1,144 @@
+.issuebackground__container {
+    background-color: rgba(9, 30, 66, 0.54);
+    z-index: 98;
+    transition: all 0.1s ease 0s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.issueform__container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    border-radius: 5px;
+    height: max-content;
+    box-sizing: border-box;
+}
+
+.issue__form > h4{
+    margin-bottom: 10px;
+}
+
+.issue__form  > form > label {
+    color: rgb(94, 108, 132);
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+
+.issue__form > form > textarea { 
+    resize:none;
+    height: 10em;
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.issue__form > form > textarea:focus { 
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.issue__form > form > input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.issue__form > form > input:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.issue__form > form > select {
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.issue__form > form > select:focus { 
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.issueform__buttoncontainer { 
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.issueform__buttons { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.issueform__buttons > button {
+    border:none;
+    font-weight: bold;
+    font-size: 0.95 rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.issueform_createbutton {
+    background-color: rgb(0 82 204);
+    color: white;
+}
+
+.issueform_createbutton:hover {
+    background-color: #005EEB;
+}
+
+
+.issueform_cancelbutton {
+    background-color: white;
+    color: rgb(66, 82, 110);
+}
+
+.issueform_cancelbutton:hover {
+    background-color: #EBECF0;
+}
+
+.formprio__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.formprio__container > div > select {
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.formprio__container > div > select:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+

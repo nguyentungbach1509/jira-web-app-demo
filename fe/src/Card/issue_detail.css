@@ -1,0 +1,225 @@
+.issuebackground__container {
+    background-color: rgba(9, 30, 66, 0.54);
+    z-index: 98;
+    transition: all 0.1s ease 0s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.issue__detailcard {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 800px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 5px;
+    height: max-content;
+    box-sizing: border-box;
+}
+
+.issuedetail__closecontainer { 
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.issueDetail__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.detail__leftcontainer > div > select {
+    width: max-content;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.detail__leftcontainer > div > select:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.detail__leftcontainer > div > h2 {
+    cursor: pointer;
+}
+
+.detail__leftcontainer > div { 
+    margin-bottom: 20px;
+}
+
+.detail__leftcontainer > div > form{ 
+    margin-top: 10px; 
+}
+
+.detail__leftcontainer > div > form > input { 
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.detail__leftcontainer > div > input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.detail__leftcontainer > div > input:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.detail__leftcontainer > div> form > label {
+    color: rgb(94, 108, 132);
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.comments__container {
+    margin-top: 10px;
+    height: 80px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.comments__container > div {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background-color: rgba(232, 229, 232, 0.333);
+}
+
+.comments__container > div > span {
+    font-size: 0.8rem;
+}
+
+.comments__container > div > label {
+    color: rgb(94, 108, 132);
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.detail__leftcontainer > div> form > input:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.issue__descriptioncontainer > textarea { 
+    resize:none;
+    height: 10em;
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.issue__descriptioncontainer > textarea:focus { 
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.commentbuttons__container { 
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+}
+
+.commentbuttons__container > button {
+    border:none;
+    font-weight: bold;
+    font-size: 0.95 rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+.comment__savebutton {
+    background-color: rgb(0 82 204);
+    color: white;
+}
+
+.comment__savebutton:hover {
+    background-color: #005EEB;
+}
+
+.detail__rightcontainer {
+    padding-top: 20px;
+}
+
+.detail__rightcontainer > select { 
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+.detail__rightcontainer > select:focus { 
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+}
+
+.detail__rightcontainer > h5 {
+    color: rgb(94, 108, 132);
+    font-weight: bold;  
+    font-size: 0.75rem;
+}
+
+.updateissue__button { 
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: end;
+    grid-gap: 10px;
+}
+
+.updateissue__button > button{
+    border:none;
+    font-weight: bold;
+    font-size: 0.95 rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    
+    
+}
+
+.updateissue__button > .update__button {
+    background-color: rgb(0 82 204);
+    color: white;
+}
+
+.updateissue__button > .update__button:hover {
+    background-color: #005EEB;
+}
+
+
+.updateissue__button > .delete__button {
+    background-color: white;
+    color: rgb(66, 82, 110);
+}
+
+.updateissue__button > .delete__button:hover {
+    background-color: #EBECF0;
+}

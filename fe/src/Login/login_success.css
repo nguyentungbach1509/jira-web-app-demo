@@ -1,0 +1,36 @@
+.loginsuccess__container {
+    padding: 8px 15px;
+    border: 1px solid #c1c7d0;
+    background-color: rgb(244, 245, 247); 
+    border-radius: 3px;;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.loginsuccess__container > div {
+    width: 100%;
+}
+
+.loginsuccess__container > div > h4{
+    margin-bottom: 3px;
+    color: rgb(69 74 80);
+    box-sizing: border-box;
+}
+
+.loginsuccess__container > div > p {
+    font-size: 0.8rem;
+    color: rgb(69 74 80);
+    font-weight: 500;
+}
+
+.loginsuccess__header {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 5px;
+    border-bottom: 1px solid rgb(169 171 174);
+    margin-bottom:15px;
+    align-items: center;
+}

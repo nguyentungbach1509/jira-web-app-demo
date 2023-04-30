@@ -1,0 +1,366 @@
+.login__container {
+    padding: 20px;
+    border: 1px solid #026dfd;
+    background-color: #292db3; 
+    border-radius: 5px;;
+    width: 300px;
+    box-sizing: border-box;
+    height: max-content;
+    position: absolute;
+    top: 22px;
+    left:6%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.login__container > form {
+    --background: white;
+  --border: rgba(0, 0, 0, 0.125);
+  --borderDark: rgba(0, 0, 0, 0.25);
+  --borderDarker: rgba(0, 0, 0, 0.5);
+  --bgColorH: 0;
+  --bgColorS: 0%;
+  --bgColorL: 50%;
+  --fgColorH: 250;
+  --fgColorS: 10%;
+  --fgColorL: 20%;
+  --shadeDark: 0.3;
+  --shadeLight: 0.7;
+  --shadeNormal: 0.5;
+  --borderRadius: 0.125rem;
+  --highlight: #306090;
+  box-sizing: border-box;
+  
+}
+
+.login__container > form > label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color:white;
+}
+
+.login__container > form > input {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #c1c7d0;
+    background-color: #e6f7ff!important;
+    margin: 8px 0px 20px 0px;
+    width: 92%;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.35) ;
+}
+
+.login__container > form > input:focus {
+    border: 2px solid #4C9AFF!important;
+    outline:none;
+}
+
+.login__container > form > .loginsignup__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login__container > form > div > button {
+    
+    padding: 10px 15px;
+    border-radius: 3px;
+    color:white;
+    background-color: rgb(52 150 249);
+    border: 1px solid rgb(52 150 249);
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.error__input {
+    border: 2.25px solid #dc3545!important;
+}
+
+.google__button {
+    display:grid;
+    grid-template-columns: 0.5fr 2fr;
+    width:100%;
+    border: 1px solid rgb(52 150 249);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+
+.google__button > .google__button__text {
+    padding: 15px;
+    color:white;
+    background-color: rgb(52 150 249);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.google__button__icon {
+    background-color: #292db3!important;
+    color: rgb(52 150 249)!important;
+    width:100%;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.loginpage__container { 
+    width:1105px;
+    height: 563px;
+    border-radius: 5px;
+    position: relative;
+    background-image: url('/public/pngtree_p.jpg');
+    background-repeat:'no-repeat';
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.signupcontainer__buttons  > button {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.signupcontainer__backbutton {
+    width: 100%; 
+    background-color: #292db3!important; 
+    color: rgb(52 150 249)!important;
+    transition: 0.3s;
+}
+
+.signupcontainer__backbutton:hover {
+    background-color:rgb(54 55 90 / 42%)!important;
+    color: white!important;
+    border: 1px solid rgb(54 55 90 / 42%)!important;
+    
+}   
+
+input[name="password"] {
+    margin-bottom: 5px!important;
+}
+
+
+figure {
+    --skinH: 30;
+    --skinS: 100%;
+    --skinL: 87%;
+    --hair: rgb(22 37 64);
+    background: hsl(var(--fgColorH), calc(var(--fgColorS) * 2), 95%);
+    border: 1px solid rgba(0,0,0,0.0625);
+    border-radius: 50%;
+    height: 0;
+    margin: auto auto;
+    margin-bottom: 15px;
+    order: 1;
+    padding-top: 60%;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+  
+figure div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+figure .skin {
+    background: hsl(var(--skinH), var(--skinS), var(--skinL));
+    box-shadow: inset 0 0 3rem hsl(var(--skinH), var(--skinS), calc(var(--skinL) * 0.95));
+}
+
+figure .head {
+    top: 40%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    box-shadow: 0 -0.175rem 0 0.125rem var(--hair);
+}
+
+figure  .ears {
+    top: 47%;
+    left: 50%;
+    white-space: nowrap;
+}
+
+figure .ears::before, figure .ears::after {
+    content: "";
+    background: hsl(var(--skinH), var(--skinS), var(--skinL));
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 0 2.1rem;
+}
+
+figure .head .eyes {
+    top: 55%;
+    left: 50%;
+    white-space: nowrap;
+}
+
+@-webkit-keyframes blink {
+    0%, 90%, 100% {
+        height: 10px;
+    }
+    95% {
+        height: 0;
+    }
+}
+
+@keyframes blink {
+    0%, 90%, 100% {
+        height: 10px;
+    }
+    95% {
+        height: 0px;
+    }
+}
+
+.eyes::before, .eyes::after {
+    content: "";
+    background: var(--borderDarker);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    -webkit-animation: blink 5s infinite;
+    animation: blink 5s infinite;
+    transition: all 0.15s;
+}
+
+.close::before, .close::after {
+    animation: none!important;
+    height: 0.125rem;
+}
+
+
+.a11y-hidden {
+    position: absolute;
+    top: -1000em;
+    left: -1000em;
+}
+
+input[type="checkbox"] + label span {
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+input[type="checkbox"] + label span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid var(--borderDark);
+    border-radius: var(--borderRadius);
+    transition: all 0.25s;
+    outline:1px dashed transparent;
+    outline-offset: 2px;
+}
+
+input[type="checkbox"]:checked + label span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.1875rem;
+    left: 0.1875rem;
+    width: 0.375rem;
+    height: 0.375rem;
+    border: 1px solid var(--borderDark);
+    border-radius: var(--borderRadius);
+    transition: all 0.25s;
+    outline:1px dashed transparent;
+    outline-offset: 2px;
+    background: hsl(var(--fgColorH), var(--fgColorS), var(--fgColorL));
+}
+
+.logincheckbox__container {
+    font-weight: 500;
+    font-size: 0.7rem;
+    color:white;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 25px;
+}
+
+figure .head .mouth {
+    border: 0.125rem solid transparent;
+    border-bottom: 0.125rem solid var(--borderDarker);
+    width: 25%;
+    border-radius: 50%;
+    transition: all 0.5s
+}
+
+form:invalid figure .head .mouth {
+    top: 75%;
+    left: 50%;
+    height: 10%;
+}
+
+form:valid figure .head .mouth {
+    top: 60%;
+    left: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+figure .hair {
+    top: 40%;
+    left: 50%;
+    width: 66.66%;
+    height: 66.66%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+figure .hair::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--hair);
+    border-radius: 50%;
+    top: -60%;
+    left: -50%;
+    box-shadow: 4rem 0 var(--hair);
+}
+
+figure .neck {
+    width: 10%;
+    height: 40%;
+    top: 62%;
+    left: 50%;
+    background: hsl(var(--skinH), var(--skinS), calc(var(--skinL) * 0.94));
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 0.25rem var(--border);
+}
+
+figure .person-body {
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    background: red;
+    left: 50%;
+    top: 126%;
+    background: hsl(var(--fgColorH), var(--fgColorS), var(--fgColorL));
+}
+
+figure .shirt-1,figure .shirt-2 {
+    width: 12%;
+    height: 7%;
+    background: hsl(var(--bgColorH), var(--bgColorS), var(--bgColorL));
+    top: 76%;
+    left: 36.5%;
+    transform: skew(-10deg) rotate(15deg)
+}
+
+figure .shirt-2 {
+    left: 52.5%;
+    transform: skew(10deg) rotate(-15deg)
+}
+
+

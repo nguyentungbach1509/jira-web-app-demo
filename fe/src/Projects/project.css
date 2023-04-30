@@ -1,0 +1,33 @@
+.projectelement__container {
+    display:flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.project__container {
+    flex:1;
+    cursor: pointer;
+    color: rgb(23, 43, 77);
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.project__container:hover {
+    background-color: #EBECF0;
+}
+
+.project__container > p {
+    font-size: 0.8rem;
+    color:rgb(94, 108, 132);
+}
+
+.deleteIcon__container {
+    padding: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}

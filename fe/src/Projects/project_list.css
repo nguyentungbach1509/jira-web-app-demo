@@ -1,0 +1,45 @@
+.background__container {
+    background-color: rgba(9, 30, 66, 0.54);
+    z-index: 98;
+    transition: all 0.1s ease 0s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.projectlist__container {
+    background-color: white;
+    position: relative;
+    top:0;
+    left:0;
+    height:100vh;
+    width: 500px;
+    padding: 30px 0px 0px 20px;
+    box-sizing: border-box;
+    color:rgb(23, 43, 77);
+}
+
+
+.projectlist__div {
+    margin-top: 20px;
+    padding-right:10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.projectlist__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.75rem;
+    font-weight: bold;
+}

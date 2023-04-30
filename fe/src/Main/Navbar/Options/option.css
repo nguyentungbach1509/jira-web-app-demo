@@ -1,0 +1,12 @@
+.option__container {
+    display: flex;
+    color: rgb(23, 43, 77);
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.option__container:hover {
+    cursor: not-allowed;
+}

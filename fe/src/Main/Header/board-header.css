@@ -1,0 +1,36 @@
+.header__middle {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header__middle > p {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.header__middle > a { 
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 3px;
+    color:rgb(66, 82, 110);
+    background-color:rgb(244, 245, 247);
+}
+
+.header__middle > a:hover { 
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 3px;
+    color:rgb(66, 82, 110);
+    background-color:#EBECF0;
+}
+
+.header__middle > a > span {
+    font-size: 0.95rem;
+    margin-left: 5px;
+}
+
+
+

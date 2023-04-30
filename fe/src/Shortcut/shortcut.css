@@ -1,0 +1,74 @@
+.shortcut__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    height: 100vh;
+    background-color: rgb(7, 71, 166);
+    transition: all 0.1s ease 0s;
+    transform: translateZ(0px);
+    overflow: hidden;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    color: rgb(222, 235, 255);
+}
+
+.jiraicon__container {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    cursor:pointer;
+    padding: 20px 10px 0px 10px;
+}
+
+.shortcut__searchicon, .shortcut__plusicon {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    width: 100%;
+    cursor:pointer;
+    text-align: center;
+}
+
+.shortcut__searchicon:hover { 
+    background-color: #f4f5f747;
+}
+
+.shortcut__plusicon:hover {
+    background-color: #f4f5f747;
+}
+
+.shortcut__listicon:hover {
+    background-color: #f4f5f747;
+}
+
+
+.shortcut__container__active {
+    width: 190px;
+    box-shadow: 3px 0px 5px #888888;
+    z-index: 95;
+    align-items: start!important;
+    
+}
+
+.shortcut__searchicon__active, .shortcut__plusicon__active, .shortcut__listicon__active {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 15px;
+    align-items: center;
+    padding: 10px;
+    text-align: unset!important;
+}
+
+.shortcut__container > div > p {
+    font-size:1rem;
+    font-weight: 600;
+}
+
+.shortcut__listicon {
+    font-size: 1.75rem;
+    width: 100%;
+    cursor:pointer;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 10px;
+
+}

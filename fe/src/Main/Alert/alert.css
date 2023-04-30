@@ -1,0 +1,29 @@
+.alertbox__container {
+    position: absolute;
+    display:none;
+    top: 35px;
+    right: 10px;
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color:white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    z-index: 90;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+
+.alertbox__containe__success {
+    display: block !important;;
+    background-color: #04AA6D!important;
+}
+
+
+.alertbox__containe__fail {
+    display: block !important;;
+    background-color: #f44336!important;
+}

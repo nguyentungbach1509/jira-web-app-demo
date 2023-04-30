@@ -1,0 +1,29 @@
+.navbody__container {
+    margin-top: 30px;
+    border-bottom: 1px solid #c1c7d0;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    
+}
+
+.navbody__container > div {
+    display: flex;
+    color: rgb(23, 43, 77);
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.navbody__container > div:hover {
+    background-color: #ebecf0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.selected {
+    color: rgb(0, 82, 204)!important;
+    background-color: rgb(235, 236, 240);
+}

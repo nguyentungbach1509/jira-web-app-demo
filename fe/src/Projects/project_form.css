@@ -1,0 +1,83 @@
+.projectform__container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 35px;
+}
+
+.projectform__formcontainer {
+    width: 100%;
+    padding: 0px 10px;
+    
+}
+
+.projectform__container > div > h2 {
+    margin-bottom: 30px;
+}
+
+.projectform__formcontainer > form > label {
+    color: rgb(94, 108, 132);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.projectform__formcontainer > form > input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.projectform__formcontainer > form > textarea {
+    resize:none;
+    height: 10em;
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.projectform__formcontainer > form > select {
+    width: 100%;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.projectform__formcontainer > form > select:focus {
+    outline:none;
+    border: 2px solid #4C9AFF!important;
+} 
+.projectform__formcontainer > form > textarea:focus {
+    border: 2px solid #4C9AFF!important;
+    outline:none;
+
+}
+.projectform__formcontainer > form > input:focus {
+    border: 2px solid #4C9AFF!important;
+    outline:none;
+}
+
+.projectform__formcontainer > form > button {
+    background-color: rgb(0 82 204);
+    color: white;
+    border:none;
+    font-weight: bold;
+    font-size: 0.95 rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.projectform__formcontainer > form > button:hover {
+    background-color: #005EEB;
+}
